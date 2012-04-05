@@ -1,6 +1,6 @@
     var znode = require('./build/Release/znode');
 
-    znode = znode.Znode();
+    znode = new znode.Znode();
     process.stdin.resume();
     process.stdin.setEncoding('utf8');
 
