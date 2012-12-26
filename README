@@ -9,8 +9,3 @@ node-waf configure build
 node test.js
 
 
-CURRENT ERRORS
----------------
-/usr/local/node/include/node/node_object_wrap.h:62: void node::ObjectWrap::Wrap(v8::Handle<v8::Object>): Assertion `handle->InternalFieldCount() > 0' failed.
-Aborted
-
